@@ -1,5 +1,5 @@
 export const Api = {
-	baseUrl: "https://backend-rickmorty.herokuapp.com/personagens",
+	baseUrl: "https://backend-rickmorty.herokuapp.com/personagens/read-all",
 
 	createUrl: () => Api.baseUrl + "/",
 
