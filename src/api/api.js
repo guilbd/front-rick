@@ -4,11 +4,11 @@ export const Api = {
 	createUrl: () => Api.baseUrl + "/",
 
 	readAllUrl: () => Api.baseUrl + "/",
-	readSingleUrl: (id) => Api.baseUrl + "/" + id,
+	readSingleUrl: (id) => Api.baseUrl + "/create/" + id,
 
-	updateUrl: (id) => Api.baseUrl + "/" + id,
+	updateUrl: (id) => Api.baseUrl + "/update/" + id,
 
-	deleteUrl: (id) => Api.baseUrl + "/" + id,
+	deleteUrl: (id) => Api.baseUrl + "/delete/" + id,
 	deleteAllUrl: () => Api.baseUrl + "/",
 
 	// Create
